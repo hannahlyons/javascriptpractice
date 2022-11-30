@@ -1,12 +1,7 @@
-body{
-    background-color: #131316;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
+div {
+    display: none;
 }
-section{
-    display:grid
-    place-items: center;
-    align-content:center
-    min: height 100vh;
+    
+a:hover + div {
+    display: block;
 }
